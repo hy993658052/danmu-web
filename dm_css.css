@@ -1,0 +1,64 @@
+.dm {
+  text-align: center;
+  margin: 20px;
+}
+
+.dm .dm_screen {
+    border: 1px solid black;
+}
+
+.dm .dm_screen .dm_vedio {
+    width: 100%;
+    height: 380px;
+}
+  
+.dm .dm_screen .dm_word div {
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.s_text {
+    height: 35px;
+    width: 380px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 10px;
+    outline: none;
+}
+
+.s_send {
+    height: 35px;
+    width: 159px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black;
+    font-size: 14px;
+    line-height: 35px;
+    background-color: white;
+    outline: none;
+}
+
+.s_clear {
+    height: 35px;
+    width: 159px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black;
+    font-size: 14px;
+    line-height: 35px;
+    background-color: white;
+    outline: none;
+}
+
+input:focus {
+    border-color: orangered;
+    color: orangered;
+}
+
