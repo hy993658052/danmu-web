@@ -41,8 +41,9 @@ $(document).ready(function() {
             color: getRandomColor()
         });
         var time = 20000 + 10000 * Math.random();
+        var leftMin = $(".dm_vedio").offset().left;
         obj.animate({
-            left: "-" + _left + "px"
+            left: leftMin + "px"
         }, time, function() {
             obj.remove();
         });
